@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${TM_FILENAME/(\w+)\.js/\1/g}.defaultProps = defaultProps;
+]]></content>
+  <tabTrigger>rpts</tabTrigger>
+  <scope>source.js</scope>
+  <description>Set default props</description>
+</snippet>

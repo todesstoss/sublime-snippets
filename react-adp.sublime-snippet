@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:}: ${2:null},
+]]></content>
+  <tabTrigger>radp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Add default prop</description>
+</snippet>

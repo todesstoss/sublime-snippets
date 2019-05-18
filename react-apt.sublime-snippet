@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:}: ${2:string}${3:.isRequired},
+]]></content>
+  <tabTrigger>rapt</tabTrigger>
+  <scope>source.js</scope>
+  <description>Add prop type</description>
+</snippet>

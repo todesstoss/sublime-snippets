@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+const [${1:state}, ${2:dispatch}] = useReducer((state, {type${3:, payload}}) => {
+  switch (type) {
+    case '${4:increment}':
+      return {${5:}};
+    default:
+      throw new Error('${6:}');
+  }
+}, {${7:}});
+]]></content>
+  <tabTrigger>rurc</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useReducer hook</description>
+</snippet>

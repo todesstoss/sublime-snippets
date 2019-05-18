@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${1:refContainer} = useRef(${2:null});
+]]></content>
+  <tabTrigger>rurf</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useRef hook</description>
+</snippet>

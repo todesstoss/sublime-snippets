@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+const propTypes = {
+  ${1:}: string${2:.isReqired},
+};
+
+const defaultProps = {
+  ${3:}: ${4:null},
+}
+
+function ${TM_FILENAME/(\w+)\.js/\1/g}(${5:\{ ${6:} \}}) {
+  return <>{${6:}}</>;
+};
+
+${TM_FILENAME/(\w+)\.js/\1/g}.propTypes = propTypes;
+${TM_FILENAME/(\w+)\.js/\1/g}.defaultProps = defaultProps;
+
+export default ${TM_FILENAME/(\w+)\.js/\1/g};
+]]></content>
+  <tabTrigger>rfc</tabTrigger>
+  <scope>source.js</scope>
+  <description>Functional component with prop types and default props</description>
+</snippet>

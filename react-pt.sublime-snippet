@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const propTypes = {
+  ${1:}: ${2:string}${3:.isRequired},
+};
+]]></content>
+  <tabTrigger>rpt</tabTrigger>
+  <scope>source.js</scope>
+  <description>Prop types</description>
+</snippet>

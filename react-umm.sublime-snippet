@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const ${1:memoizedValue} = useMemo(() => ${2:\{
+  ${3:}
+\}}, [${4:}]);
+]]></content>
+  <tabTrigger>rumm</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useMemo hook</description>
+</snippet>

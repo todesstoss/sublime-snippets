@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${TM_FILENAME/(\w+)\.js/\1/g}.propTypes = propTypes;
+]]></content>
+  <tabTrigger>rspt</tabTrigger>
+  <scope>source.js</scope>
+  <description>Set prop types</description>
+</snippet>

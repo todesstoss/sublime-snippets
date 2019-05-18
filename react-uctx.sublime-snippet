@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${1:\{ ${2:} \}} = useContext(${4:${3:Name}Context});
+]]></content>
+  <tabTrigger>ructx</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useContext hook</description>
+</snippet>
