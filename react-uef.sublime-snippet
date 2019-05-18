@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+useEffect(${1:() => \{
+  ${2:}
+\}}${3:, [${4:}]});
+]]></content>
+  <tabTrigger>ruef</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useEffect hook</description>
+</snippet>

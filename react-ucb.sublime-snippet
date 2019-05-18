@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+const ${1:memoizedCallback} = useCallback(
+  () => {
+    ${2:}
+  },
+  [${3:}],
+);
+]]></content>
+  <tabTrigger>rucb</tabTrigger>
+  <scope>source.js meta.function.js</scope>
+  <description>useCallback hook</description>
+</snippet>
