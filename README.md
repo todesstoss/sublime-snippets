@@ -23,11 +23,11 @@ const propTypes = {
 
 const defaultProps = {
   ${3:}: ${4:null},
-}
+};
 
 function ${TM_FILENAME/(\w+)\.js/\1/g}(${5:\{ ${6:} \}}) {
-  return <>{${6:}}</>;
-};
+  return <${7:}>{${6:}}</${7:}>;
+}
 
 ${TM_FILENAME/(\w+)\.js/\1/g}.propTypes = propTypes;
 ${TM_FILENAME/(\w+)\.js/\1/g}.defaultProps = defaultProps;
